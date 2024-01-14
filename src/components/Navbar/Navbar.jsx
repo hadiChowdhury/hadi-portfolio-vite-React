@@ -8,7 +8,7 @@ export const Navbar = () => {
   <nav className={styles.navbar}>
     <a className={styles.title} href="/">Hadi Chowdhury</a>
     <div className={styles.menu}>
-      {/* the img code help to create that click option, if i click it show cross, if i click again it shows menu icon */}
+      {/* the img code help to create that click option, if i click it show cross, if i click again it shows menu icon  */}
       <img className={styles.menuBtn} 
       src={
         menuOpen 
