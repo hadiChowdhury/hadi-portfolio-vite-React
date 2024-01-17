@@ -19,16 +19,17 @@
 }
 
 .title{
-    font-size: 72px;
+    font-size: 75px;
     font-weight: 900;
     margin-bottom: 33px;
-    font-family: var(--font-roboto);
-    background: linear-gradient(90deg, rgba(255,255,255,1)70%, rgba(255,255,255,0)120%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    font-family: var(--font-outfit);
+    
+    color: linear-gradient(90deg, rgba(255,255,255,1)70%, rgba(255,255,255,0)120%);
+    /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
 }
 .description{
-    font-size: 30px;
+    font-size: 25px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
 }
@@ -42,9 +43,25 @@
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     cursor: pointer;
+
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes btn {
+    0%{
+        transform: translate(0, 0px);
+    }
+    50%{
+        transform: translate(10px, 0px);
+    }
+    100%{
+        transform: translate(-0px, 0px);
+    }
 }
 .heroImg{
-    width: 50%;
+    width: 60%;
     z-index: 1;
 
     animation-name: floating;

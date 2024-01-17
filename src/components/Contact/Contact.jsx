@@ -8,7 +8,7 @@ const Contact = () => {
     <footer id='contact' className={styles.container}>
         <div className={styles.text}>
             <h2>Contact</h2>
-            <p>Feel free to reach me out</p>
+            <p>Feel free to reach me out 😊</p>
         </div>
         <ul className={styles.links}>
           <li className={styles.link}>
@@ -18,12 +18,12 @@ const Contact = () => {
 
           <li className={styles.link}>
             <img src={getImageUrl("contact/linkedinIcon.png")} alt="Linkedin Icon" />
-            <a href="https://www.linkedin.com/in/hadi-chowdhury-68a614278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin.com/hadi-chowdhury</a>
+            <a href="https://www.linkedin.com/in/hadi-chowdhury-68a614278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">/hadi-chowdhury</a>
           </li>
 
           <li className={styles.link}>
             <img src={getImageUrl("contact/githubIcon.png")} alt="Github Icon" />
-            <a href="https://github.com/hadiChowdhury">Github.com/hadiChowdhury</a>
+            <a href="https://github.com/hadiChowdhury">/hadiChowdhury</a>
           </li>
         </ul>
     </footer>
