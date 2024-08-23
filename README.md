@@ -29,3 +29,12 @@ Check out the live version of my portfolio [here]([https://your-portfolio-link.c
 2. **Build for production**
    ```bash
    npm run build
+
+## 📬 Contact
+Feel free to reach out if you have any questions or if you'd like to connect!
+- **Email:** chowdhuryhadiaiub20@gmail.com
+- **LinkedIn:** linkedin.com/in/chowdhuryhadi
+
+</br>
+Thank you for checking out my portfolio! 🙌
+
