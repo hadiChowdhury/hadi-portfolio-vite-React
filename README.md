@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 
 ## 🚀 Live Demo
 
-Check out the live version of my portfolio [here]([https://your-portfolio-link.com](https://abdulhadiportfolio.netlify.app/)).
+Check out the live version of my portfolio [here](https://abdulhadiportfolio.netlify.app/).
 
 ## 🛠️ Tech Stack
 
@@ -33,7 +33,7 @@ Check out the live version of my portfolio [here]([https://your-portfolio-link.c
 ## 📬 Contact
 Feel free to reach out if you have any questions or if you'd like to connect!
 - **Email:** chowdhuryhadiaiub20@gmail.com
-- **LinkedIn:** linkedin.com/in/chowdhuryhadi
+- **LinkedIn:** www.linkedin.com/in/chowdhuryhadi
 
 </br>
 Thank you for checking out my portfolio! 🙌
