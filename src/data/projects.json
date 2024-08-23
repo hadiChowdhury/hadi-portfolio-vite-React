@@ -1,0 +1,34 @@
+[
+  {
+    "title": "FrontEnd Web Developer",
+    "imageSrc": "projects/web.png",
+    "description": "Eager & motivated Front-End Developer building websites with HTML, CSS, and ReactJS. Always learning and embracing new challenges to create user-friendly, interactive experiences.",
+    "skills": ["React", "HTML", "CSS", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Ui/Ux designer",
+    "imageSrc": "projects/uiux.png",
+    "description": "Passionate UI/UX designer prototyping, and building user flows with a focus on visual design and usability. Ready to learn and contribute to creating seamless digital experiences.",
+    "skills": ["Figma", "Prototyping", "Wireframing"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Graphics designer",
+    "imageSrc": "projects/graphics.png",
+    "description": "Emerging graphic designer, creating clear & effective designs for diverse marketing needs.From business cards to posters, I craft impactful visuals for printing and digital using",
+    "skills": ["Adobe Illustrator", "Photoshop", "Canva"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Automation SQA Engineer",
+    "imageSrc": "projects/sqa.jpg",
+    "description": "Skilled in Automation Software Quality Assurance, focusing on designing, implementing, and executing automated testcase to ensure software reliability and performance.",
+    "skills": ["Selenium","Python"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

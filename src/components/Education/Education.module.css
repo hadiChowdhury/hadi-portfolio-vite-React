@@ -1,0 +1,80 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 60px 5%; /* Adjusted padding for consistency */
+  background-color: #000; /* Black background for section */
+  color: #fff; /* White text for readability */
+  border-radius: 15px;
+}
+
+.section {
+  flex: 1;
+  min-width: 300px;
+  background-color: #000000; /* Slightly lighter black for sections */
+  border-radius: 10px;
+  padding: 80px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f7d700; /* Yellow color for titles */
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Professional look */
+}
+
+.items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.itemText {
+  background-color: #222; /* Consistent dark background for items */
+  border-left: 4px solid #f7d700; /* Yellow left border */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.degreeTitle, .jobTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f7d700; /* Yellow color for titles */
+  margin: 0;
+}
+
+.institution, .company {
+  font-size: 16px;
+  color: #f7d700; /* Yellow color for institution and company */
+  margin: 5px 0;
+}
+
+.degree, .jobDescription {
+  font-size: 14px;
+  color: #e0e0e0; /* Light gray for descriptions */
+  margin: 5px 0;
+}
+
+.year, .skills {
+  font-size: 12px;
+  color: #b0b0b0; /* Light gray for year and skills */
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 40px 5%; /* Adjusted padding for mobile screens */
+  }
+
+  .section {
+    padding: 20px; /* Reduced padding for mobile view */
+  }
+}

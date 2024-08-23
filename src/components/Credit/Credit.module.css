@@ -1,0 +1,17 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  background-color: #25262a;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container p {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: #66f0ac;
+}

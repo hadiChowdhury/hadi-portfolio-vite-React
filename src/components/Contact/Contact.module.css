@@ -1,70 +1,67 @@
 @import "../../vars.css";
 
-.container{
-    color: var(--color-text);
-    margin-top: 120px;
-    background-color: var(--color-secondary);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100vw;
-    padding: 58px 10%;
-    gap: 10px;
+.container {
+  background-color: #121212; /* Dark background for a modern look */
+  color: #e0e0e0; /* Light text color for contrast */
+  padding: 60px 5%; /* Consistent padding with other sections */
+  text-align: center; /* Centered text alignment */
+  border-top: 4px solid #f7d700; /* Bold yellow top border for a striking effect */
 }
 
-
-.text h2{
-    font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 4px;
+.text {
+  margin-bottom: 40px; /* Space between heading and contact links */
 }
 
-.text p{
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: 2px;
-}
-.links{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    list-style: none;
-    gap: 26px;
+.text h2 {
+  font-size: 32px; /* Slightly smaller than previous to emphasize modern look */
+  font-weight: 600; /* Medium font weight for a clean look */
+  line-height: 1.4;
+  color: #e0e0e0; /* Light text color */
 }
 
-.link{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-}
-.link a{
-    color: var(--color-text);
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
+.text2 {
+  color: #f7d700; /* Yellow for emphasis */
 }
 
-@media screen and (max-width: 830px)  {
-    .container{
-        flex-direction: column;
-        gap: 23px;
-    }
-    .text{
-        font-size: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .link{
-        align-items: center;
-    }
-    .link img{
-        height: 20px;
-        width: 20px;
+.links {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+}
 
-    }
-    .link a{
-       font-size: 15px;;
-    }
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center items horizontally */
+  margin-bottom: 25px; /* Space between links */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.link:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.link img {
+  width: 28px; /* Larger icons for a modern look */
+  height: 28px;
+  margin-right: 15px; /* Space between icon and text */
+}
+
+.link a {
+  color: #e0e0e0; /* Light text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Font size for readability */
+  font-weight: 500; /* Medium font weight */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.link a:hover {
+  color: #f7d700; /* Yellow color on hover */
+}
+
+.credit {
+  margin-top: 40px; /* Space above the credit section */
+  font-size: 14px;
+  color: #b0b0b0; /* Light gray for less prominent text */
+  opacity: 0.7; /* Slight transparency for modern touch */
 }

@@ -1,79 +1,92 @@
 @import "../../vars.css";
 
-.container{
-    position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
-    border-radius: 15px;
-    padding: 30px;
-    margin-top: 129px;
-    z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+.container {
+  background-color: #f4f4f4; /* Light background for a clean look */
+  border-radius: 15px;
+  padding: 40px;
+  margin: 80px auto; /* Centered with a clean top margin */
+  max-width: 1200px; /* Limit the width for better readability */
 }
-.title{
-    color: var(--color-text);
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
+
+.title {
+  color: #333; /* Darker color for better contrast */
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center; /* Center the title */
+  margin-bottom: 40px; /* Space below the title */
 }
-.content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px; /* Increased gap for a spacious layout */
 }
-.aboutImage{
-    width: 35%;
+
+.aboutImage {
+  flex: 1;
+  max-width: 100%; /* Ensure image fits within container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
-.aboutItems{
-    color: var(--color-text);
-    display: flex;
+
+.aboutItems {
+  flex: 2;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Consistent gap between items */
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  list-style: none;
+  padding: 20px;
+  background: #fff; /* Solid background for items */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.aboutItem:hover {
+  background-color: #e0e0e0; /* Light background on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.aboutItemImage {
+  width: 50px; /* Fixed size for icons */
+  height: 50px;
+  margin-right: 20px; /* Consistent spacing */
+}
+
+.aboutItem h3 {
+  font-size: 24px; /* Slightly larger font size for headings */
+  font-weight: 600;
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.aboutItem p {
+  font-size: 16px; /* Increased font size for readability */
+  line-height: 1.6; /* Improved line height */
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px; /* Adjusted padding for smaller screens */
+    margin: 50px auto; /* Centered with a reduced top margin */
+  }
+  .content {
     flex-direction: column;
-    gap: 50px;
-}
-.aboutItem{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 20px;
-    list-style: none;
-    padding: 25px;
-    background-image: linear-gradient(90deg, rgba(165,215,232, 0.42) 0%, rgba(255,255,255,0)100%);
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    transition: 0.4s;
-}
-.aboutItem:hover{
-    background-size: 100% 100%;
-}
-.aboutItem h3{
-    font-size: 25px;
-    font-weight: 600;
-}
-.aboutItem p{
-    padding-top: 10px;
-    font-size: 14px;
-}
-
-@media screen and (max-width: 830px) {
-    .container{
-        background-color: transparent;
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-    .content{
-        flex-direction: column;
-    }
-    .aboutImage{
-        display: none;
-    }
-    .aboutItems{
-        margin-top: 29px;
-
-    }
-    .aboutItem{
-        padding-left: 0;
-        padding-right: 0;
-    }
-    
+    align-items: center; /* Center items on smaller screens */
+  }
+  .aboutImage {
+    display: none; /* Hide image on small screens */
+  }
+  .aboutItems {
+    margin-top: 20px; /* Space above the list items */
+  }
 }

@@ -1,18 +1,24 @@
 [
-    {
-      "role": "System Support Intern",
-      "organisation": "Beacon Pharma PLC.",
-      "startDate": "Sept, 2023",
-      "endDate": "Dec, 2023",
-      "experiences": ["Worked on IT support and networking", "Debugging software bugs, fixing networking problems, and maintaining user IDs inside the domain, Network Administrations"],
-      "imageSrc": "history/BPL.png"
-    },
-    {
-      "role": "Graphic Designer",
-      "organisation": "Local Market",
-      "startDate": "Aug, 2021",
-      "endDate": "Present",
-      "experiences": ["Worked on Illustrator,Photoshop,Canva", "Provide Graphic design service to local clients"],
-      "imageSrc": "history/illustration.png"
-    }
-  ]
+  {
+    "role": "System Support Intern",
+    "organisation": "Beacon Pharma PLC.",
+    "startDate": "Sept, 2023",
+    "endDate": "Dec, 2023",
+    "experiences": [
+      "Worked on IT support and networking",
+      "Debugging software bugs, fixing networking problems, and maintaining user IDs inside the domain, Network Administrations"
+    ],
+    "imageSrc": "history/BPL.png"
+  },
+  {
+    "role": "Graphic Designer",
+    "organisation": "Local Market",
+    "startDate": "Aug, 2021",
+    "endDate": "Present",
+    "experiences": [
+      "Worked on Illustrator,Photoshop,Canva",
+      "Provide Graphic design service to local clients"
+    ],
+    "imageSrc": "history/illustration.png"
+  }
+]

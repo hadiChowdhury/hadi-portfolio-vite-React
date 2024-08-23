@@ -1,0 +1,74 @@
+@import "../../vars.css";
+
+.container {
+  padding: 60px 20px;
+  background-color: #000; /* Black background for consistency */
+  color: #fff; /* White text for contrast */
+  border-radius: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #f7d700; /* Yellow color for title */
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase; /* Makes title look more professional */
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center; /* Center cards within the container */
+}
+
+.projectCard {
+  background: #1a1a1a; /* Dark background for each card */
+  border: 2px solid #f7d700; /* Yellow border for consistency */
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.projectCard img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.projectCard h3 {
+  font-size: 24px;
+  color: #f7d700; /* Yellow color for project titles */
+  margin-top: 15px;
+}
+
+.projectCard p {
+  color: #f1f1f1; /* Light gray text color for readability */
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 40px 20px;
+  }
+
+  .projects {
+    gap: 20px;
+  }
+
+  .projectCard {
+    max-width: 100%;
+    padding: 15px;
+  }
+}
