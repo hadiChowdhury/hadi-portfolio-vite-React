@@ -23,10 +23,13 @@ Check out the live version of my portfolio [here](https://abdulhadiportfolio.net
 
 ## ⚙️ Installation & Setup
 
-1. **Start the development server**
+1. **Install dependencies**
+   ```bash
+   npm install
+2. **Start the development server**
    ```bash
    npm run dev
-2. **Build for production**
+3. **Build for production**
    ```bash
    npm run build
 
