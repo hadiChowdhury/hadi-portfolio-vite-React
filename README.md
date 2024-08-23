@@ -25,6 +25,7 @@ Check out the live version of my portfolio [here]([https://your-portfolio-link.c
 
 1. **Start the development server**
    ```bash
-npm install
+   npm run dev
 2. **Build for production**
-   ```npm run build
+   ```bash
+   npm run build
